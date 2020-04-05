@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+p{
+	padding: 5px;
+	overflow: auto;
+	
+}
+
+.flex-element-p {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.row > div{
+	
+	background-color: gray;
+	border: 2px solid black;
+	margin: 5px 10px;
+	
+}
+
+#tag1{
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	text-align: center;
+	padding: 1px;
+	width: 166px;
+	margin: 0;
+	
+	background-color: pink;
+}
+
+#tag2{
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	text-align: center;
+	padding: 1px;
+	width: 166px;
+	margin: 0;
+	
+	background-color: tomato;
+}
+
+#tag3{
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	text-align: center;
+	padding: 1px;
+	width: 166px;
+	margin: 0;
+	
+	background-color: lemonchiffon;
+}
+
+
+header {
+	margin: 50px;
+	text-align: center;
+}
+
+.row {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .col-lg-1{
+    float: left;
+     width: 31%;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .tablet{
+    float: left;
+     width: 47%;
+  }
+  .tablet_2{
+  	float: left;
+     width: 96%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-lg-1{
+    float: left;
+     width: 95%;
+  }
+}
